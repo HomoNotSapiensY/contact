@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Герб СССР">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff0a8"/>
+      <stop offset="50%" stop-color="#e8b923"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#e63946"/>
+      <stop offset="100%" stop-color="#7f1018"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="480" fill="url(#bg)"/>
+  <circle cx="200" cy="228" r="158" fill="none" stroke="url(#gold)" stroke-width="7"/>
+  <path fill="url(#gold)" d="M200 48 L210 78 H244 L220 96 L230 128 L200 108 L170 128 L180 96 L156 78 H190 Z"/>
+  <ellipse cx="200" cy="235" rx="118" ry="112" fill="none" stroke="url(#gold)" stroke-width="5" opacity="0.85"/>
+  <g fill="url(#gold)" transform="translate(200 242) scale(3.2)">
+    <path d="M-5.2 -8.5 L4.8 2.2 L2.4 4.4 L-7.2 -5.8 Z"/>
+    <path d="M-7.2 -5.8 L-9.8 -3.2 C-11.2 -1.2 -10.2 1.5 -7.8 2.5 L2.4 4.4 L0.2 2.2 L-4.5 -2.8 Z"/>
+    <path d="M4.8 2.2 L9.5 0.5 L11 2.5 L6.2 5.2 Z"/>
+    <path d="M0.5 4.8 C-4.5 8.5 -3.8 13.5 0.8 15.2 C5.2 13.5 6.5 9.5 3.5 5.8 Z"/>
+    <path d="M-8.5 2.5 C-13.5 6.2 -12.5 12 -7.2 14.5 C-3.5 12.8 -1.5 9.2 0.5 5.8 Z"/>
+  </g>
+  <path fill="url(#gold)" d="M72 392 C120 430 280 430 328 392 L312 418 C260 448 140 448 88 418 Z"/>
+  <text x="200" y="412" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="40" fill="#6b0f12" letter-spacing="8">СССР</text>
+</svg>
